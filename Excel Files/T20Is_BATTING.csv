@@ -1,0 +1,38 @@
+ID,NAME,COUNTRY,Age,Batting style,Bowling style,Playing role,Mat,Inns,NO,Runs,HS,Ave,BF,SR,100,50,4s,6s,Ct,St
+494230,Asif Ali,Pakistan,28.0,Right-hand bat,Right-arm medium-fast,Middle-order batsman,19.0,18.0,6.0,277.0,41*,23.08,201.0,137.81,0.0,0.0,12.0,18.0,8.0,0.0
+316397,Asad Shafiq,Pakistan,33.0,Right-hand bat,Right-arm offbreak,Middle-order batsman,10.0,10.0,0.0,192.0,38,19.2,185.0,103.78,0.0,0.0,19.0,2.0,3.0,0.0
+232491,Anwar Ali,Pakistan,32.0,Right-hand bat,Right-arm medium-fast,Bowler,16.0,11.0,4.0,109.0,46,15.57,77.0,141.55,0.0,0.0,6.0,6.0,5.0,0.0
+259410,Ahmed Shehzad,Pakistan,28.0,Right-hand bat,Legbreak,Opening batsman,57.0,57.0,2.0,1454.0,111*,26.43,1257.0,115.67,1.0,7.0,157.0,32.0,14.0,0.0
+39836,Abdul Razzaq,Pakistan,40.0,Right-hand bat,Right-arm fast-medium,Allrounder,32.0,29.0,10.0,393.0,46*,20.68,337.0,116.61,0.0,0.0,21.0,21.0,2.0,0.0
+348144,Babar Azam,Pakistan,25.0,Right-hand bat,Right-arm offbreak,Batsman,29.0,29.0,7.0,1182.0,97*,53.72,925.0,127.78,0.0,9.0,119.0,15.0,14.0,0.0
+40250,Fawad Alam,Pakistan,34.0,Left-hand bat,Slow left-arm orthodox,Top-order batsman,24.0,17.0,6.0,194.0,28,17.63,169.0,114.79,0.0,0.0,7.0,7.0,7.0,0.0
+512191,Fakhar Zaman,Pakistan,29.0,Left-hand bat,Slow left-arm orthodox,Opening batsman,29.0,28.0,0.0,741.0,91,26.46,534.0,138.76,0.0,4.0,84.0,22.0,12.0,0.0
+681117,Faheem Ashraf,Pakistan,25.0,Left-hand bat,Right-arm medium,Bowling allrounder,25.0,16.0,6.0,108.0,21,10.8,92.0,117.39,0.0,0.0,5.0,7.0,7.0,0.0
+628240,Hussain Talat,Pakistan,23.0,Left-hand bat,Right-arm medium-fast,Allrounder,14.0,14.0,1.0,371.0,63,28.53,309.0,120.06,0.0,2.0,35.0,5.0,4.0,0.0
+681305,Hasan Ali,Pakistan,25.0,Right-hand bat,Right-arm medium-fast,Bowler,29.0,9.0,4.0,61.0,23,12.2,35.0,174.28,0.0,0.0,3.0,5.0,7.0,0.0
+318788,Haris Sohail,Pakistan,30.0,Left-hand bat,Slow left-arm orthodox,Middle-order batsman,9.0,8.0,2.0,90.0,30*,15.0,87.0,103.44,0.0,0.0,6.0,1.0,3.0,0.0
+227758,Imad Wasim,Pakistan,31.0,Left-hand bat,Slow left-arm orthodox,Allrounder,34.0,22.0,8.0,169.0,24*,12.07,110.0,153.63,0.0,0.0,15.0,7.0,13.0,0.0
+41046,Khalid Latif,Pakistan,34.0,Right-hand bat,Right-arm offbreak,Top-order batsman,13.0,13.0,2.0,237.0,59*,21.54,229.0,103.49,0.0,1.0,25.0,6.0,4.0,0.0
+41028,Kamran Akmal,Pakistan,37.0,Right-hand bat,0,Wicketkeeper batsman,58.0,53.0,6.0,987.0,73,21.0,825.0,119.63,0.0,5.0,100.0,31.0,28.0,32.0
+556916,Mukhtar Ahmed,Pakistan,27.0,Right-hand bat,Legbreak googly,Opening batsman,6.0,6.0,0.0,192.0,83,32.0,134.0,143.28,0.0,2.0,23.0,5.0,2.0,0.0
+323389,Mohammad Rizwan,Pakistan,27.0,Right-hand bat,0,Batsman,13.0,10.0,2.0,135.0,33*,16.87,134.0,100.74,0.0,0.0,12.0,1.0,3.0,2.0
+41434,Mohammad Hafeez,Pakistan,39.0,Right-hand bat,Right-arm offbreak,Allrounder,89.0,86.0,8.0,1908.0,86,24.46,1643.0,116.12,0.0,10.0,196.0,51.0,25.0,0.0
+290948,Mohammad Amir,Pakistan,27.0,Left-hand bat,Left-arm fast,Bowler,42.0,11.0,4.0,44.0,21*,6.28,58.0,75.86,0.0,0.0,1.0,2.0,4.0,0.0
+41378,Misbah-ul-Haq,Pakistan,45.0,Right-hand bat,Legbreak,Middle-order batsman,39.0,34.0,13.0,788.0,87*,37.52,715.0,110.2,0.0,3.0,45.0,26.0,14.0,0.0
+42321,Nasir Jamshed,Pakistan,30.0,Left-hand bat,0,Opening batsman,18.0,18.0,1.0,363.0,56,21.35,320.0,113.43,0.0,2.0,34.0,12.0,6.0,0.0
+43265,Sohail Tanvir,Pakistan,35.0,Left-hand bat,Left-arm medium-fast,Bowler,57.0,25.0,8.0,196.0,41,11.52,164.0,119.51,0.0,0.0,16.0,9.0,7.0,0.0
+43266,Sohaib Maqsood,Pakistan,32.0,Right-hand bat,Right-arm offbreak,Middle-order batsman,20.0,18.0,2.0,221.0,37,13.81,201.0,109.95,0.0,0.0,15.0,8.0,4.0,0.0
+42657,Shoaib Malik,Pakistan,37.0,Right-hand bat,Right-arm offbreak,Middle-order batsman,111.0,104.0,30.0,2263.0,75,30.58,1824.0,124.06,0.0,7.0,186.0,61.0,50.0,0.0
+42655,Shoaib Akhtar,Pakistan,44.0,Right-hand bat,Right-arm fast,Bowler,15.0,6.0,3.0,21.0,8*,7.0,16.0,131.25,0.0,0.0,2.0,1.0,2.0,0.0
+227762,Sharjeel Khan,Pakistan,30.0,Left-hand bat,Legbreak,Opening batsman,15.0,15.0,0.0,360.0,59,24.0,262.0,137.4,0.0,2.0,48.0,13.0,5.0,0.0
+370846,Shahzaib Hasan,Pakistan,30.0,Right-hand bat,Right-arm offbreak,Opening batsman,10.0,10.0,0.0,116.0,35,11.6,130.0,89.23,0.0,0.0,13.0,3.0,3.0,0.0
+42639,Shahid Afridi,Pakistan,39.0,Right-hand bat,Legbreak googly,Allrounder,99.0,91.0,12.0,1416.0,54*,17.92,944.0,150.0,0.0,4.0,103.0,73.0,30.0,0.0
+922943,Shadab Khan,Pakistan,21.0,Right-hand bat,Legbreak,Allrounder,32.0,11.0,5.0,115.0,29,19.16,80.0,143.75,0.0,0.0,5.0,6.0,11.0,0.0
+227760,Sarfaraz Ahmed,Pakistan,32.0,Right-hand bat,0,Wicketkeeper batsman,54.0,38.0,12.0,745.0,89*,28.65,579.0,128.67,0.0,3.0,74.0,14.0,32.0,10.0
+42683,Salman Butt,Pakistan,35.0,Left-hand bat,Right-arm offbreak,Batsman,24.0,23.0,2.0,595.0,74,28.33,551.0,107.98,0.0,3.0,66.0,10.0,3.0,0.0
+42699,Saeed Ajmal,Pakistan,42.0,Right-hand bat,Right-arm offbreak,Bowler,64.0,23.0,12.0,91.0,21*,8.27,86.0,105.81,0.0,0.0,7.0,2.0,12.0,0.0
+43524,Umar Gul,Pakistan,35.0,Right-hand bat,Right-arm fast-medium,Bowler,60.0,27.0,9.0,165.0,32,9.16,156.0,105.76,0.0,0.0,11.0,10.0,18.0,0.0
+288211,Umar Amin,Pakistan,30.0,Left-hand bat,Right-arm medium,Top-order batsman,14.0,9.0,0.0,142.0,47,15.77,123.0,115.44,0.0,0.0,15.0,4.0,4.0,0.0
+317273,Umar Akmal,Pakistan,29.0,Right-hand bat,0,Middle-order batsman,82.0,77.0,14.0,1690.0,94,26.82,1375.0,122.9,0.0,8.0,122.0,55.0,49.0,2.0
+43590,Wahab Riaz,Pakistan,34.0,Right-hand bat,Left-arm fast,Bowler,27.0,14.0,4.0,126.0,30*,12.6,107.0,117.75,0.0,0.0,9.0,5.0,5.0,0.0
+43652,Younis Khan,Pakistan,42.0,Right-hand bat,"Right-arm medium, Legbreak",Middle-order batsman,25.0,23.0,3.0,442.0,51,22.1,364.0,121.42,0.0,2.0,31.0,12.0,12.0,0.0
