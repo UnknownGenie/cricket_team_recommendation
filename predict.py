@@ -62,14 +62,50 @@ def recommend_team(players, squad, date, opposition, venue, code):
     recommended.to_csv('result.csv', index = False)
 
 if __name__ == '__main__':
-    parser = argparse.
+    parser = argparse.ArgumentParser(description="Recmmend team given a squad, opposition team, venue and date")
+    parser.add_argument("-t", 
+                        help = "Flag to use preset conditions to execute this script",
+                        default = 0, type = int)
+    parser.add_argument("-d", "--date", 
+                        help = "date the match will be played as string in form yyyy-mm-dd",
+                        type = str)
+    parser.add_argument("-v", "--venue", 
+                        help = "Venue for the match",
+                        type = str)
+    parser.add_argument("-id", "--id_of_players", 
+                        help = """ID for players in form 1:2:3 seperated by full colon(:)""",
+                        type = str)
+    parser.add_argument("-c", "--code", 
+                        help = """Describes the scheme of players, 4:1:2:4 corresponds to 4 batsmen,
+                        1 wicketkeeper, 2 all rounders and 4 bowler""",
+                        type = str)
+    parser.add_argument("-o", "--opposition",
+                        help = "Team playing agianst",
+                        type = str)
+    args = parser.parse_args()
     
     players_path = os.path.join("Excel Files", "Players_with_not_played_in_matches.csv")
     players = pd.read_csv(players_path)
-    squad = players[players.series == 11291]
-    squad = squad.groupby('player_name').head(1).reset_index()[['player_name', 'playing_role']]
-    date = np.asarray(['2011-04-05'], dtype = object)
-    opposition = 'Sri Lanka'
-    venue = 'Sharjah'
-    code = [4,1,2,4]
+        
+    if args.t:
+        squad = players[players.series == 11291]
+        print(':'.join(squad.player_id.astype(str).tolist()))
+    
+        squad = squad.groupby('player_name').head(1).reset_index()[['player_name', 'playing_role']]
+        date = np.asarray(['2011-04-05'], dtype = object)
+        opposition = 'Sri Lanka'
+        venue = 'Sharjah'
+        code = [4,1,2,4]
+    else:
+        ids = args.id_of_players.split(":")
+        ids = [int(id) for id in ids]
+        mask = players.player_id.map(lambda x: x in ids)
+        squad = players[mask]
+        squad = squad.groupby('player_name').head(1).reset_index()[['player_name', 'playing_role']]
+        date = np.asarray([args.date], dtype = object)
+        opposition = args.opposition
+        venue = args.venue
+        code = [int(num) for num in args.code.split(":")]
+        
+    
     recommend_team(players, squad, date, opposition, venue, code)
