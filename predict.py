@@ -82,12 +82,13 @@ if __name__ == '__main__':
     parser.add_argument("-o", "--opposition",
                         help = "Team playing agianst",
                         type = str)
+    
     args = parser.parse_args()
     
     players_path = os.path.join("Excel Files", "Players_with_not_played_in_matches.csv")
     players = pd.read_csv(players_path)
         
-    if args.t:
+    if args.t == 1:
         squad = players[players.series == 11291]
         print(':'.join(squad.player_id.astype(str).tolist()))
     
