@@ -1,4 +1,8 @@
 joblib == 0.15.1
 numpy == 1.19.0
 pandas == 1.0.5
+<<<<<<< HEAD
 scikit-learn == 0.23.1
+=======
+scikit-learn == 0.23.1
+>>>>>>> 049c489aeef8aef184f4411259e9a7f142a256cf
