@@ -1,11 +1,11 @@
-player_name,playing_role
-Azhar Ali,Batsman
-Mohammad Rizwan,Batsman
-Asad Shafiq,Batsman
-Ahmed Shehzad,Batsman
-Sarfaraz Ahmed,Wicketkeeper
-Aamer Yamin,Allrounder
-Bilal Asif,Allrounder
-Mohammad Irfan,Bowler
-Wahab Riaz,Bowler
-Yasir Shah,Bowler
+player_name,playing_role,recommended,Win_Probability
+Ahmed Shehzad,Batsman,0.9328716148088254,82.02530623957203
+Asad Shafiq,Batsman,0.37006295082533797,82.02530623957203
+Azhar Ali,Batsman,0.23630817561292866,82.02530623957203
+Mohammad Rizwan,Batsman,0.1291173860158429,82.02530623957203
+Sarfaraz Ahmed,Wicketkeeper,0.8989614598374495,82.02530623957203
+Mohammad Hafeez,Allrounder,0.9833705427915641,82.02530623957203
+Shoaib Malik,Allrounder,0.9159987437154251,82.02530623957203
+Wahab Riaz,Bowler,0.11337430317114604,82.02530623957203
+Mohammad Irfan,Bowler,0.0727419594128014,82.02530623957203
+Yasir Shah,Bowler,0.06617416387404493,82.02530623957203

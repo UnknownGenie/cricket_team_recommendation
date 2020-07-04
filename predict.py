@@ -56,9 +56,13 @@ def recommend_team(players, squad, date, opposition, venue, code):
                                                                          ascending = False).head(code[2])
     bowler = squad[(squad.playing_role == 'Bowler')].sort_values(by = ['recommended'], 
                                                                  ascending = False).head(code[3])
-    recommended = pd.concat((batsman, keeper, allrounder, bowler))[['player_name', 'playing_role']]
-    print(recommended)
-#     print("Chances of win: {:.1f}%".format(squad.recommended[squad.recommended > 0.3].mean() * 100))
+    recommended = pd.concat((batsman, keeper, allrounder, bowler))#[['player_name', 'playing_role', 'recommended']]
+    
+    win_prob = squad.recommended[squad.recommended > 0.35].mean() * 100
+    recommended['Win_Probability'] = win_prob
+    
+    # print(recommended)
+    print("Chances of win: {:.1f}%".format(win_prob))
     recommended.to_csv('result.csv', index = False)
 
 if __name__ == '__main__':
@@ -90,8 +94,6 @@ if __name__ == '__main__':
         
     if args.t == 1:
         squad = players[players.series == 11291]
-        print(':'.join(squad.player_id.astype(str).tolist()))
-    
         squad = squad.groupby('player_name').head(1).reset_index()[['player_name', 'playing_role']]
         date = np.asarray(['2011-04-05'], dtype = object)
         opposition = 'Sri Lanka'
